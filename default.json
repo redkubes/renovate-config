@@ -7,10 +7,26 @@
       },
       "hostType": "npm",
       "matchHost": "https://npm.pkg.github.com/"
-    }
+    },
+    {
+      "encrypted": {
+        "password": "zuRo1ONNmelGjpcWsuL3LlxOoGk8N/lk2N7gfJeLy9mCnt0Bo7kUy8M643lbNjOTR8FvovDJomtoZ9agPRlhNg7Bbh3N+nlZIVkoNCeQvs1SuT5DUKYRtc3zRV+6qLRRtEXHJjFYslT8iCLzHAWg2GQyIPpCuNhE6ONchhxEPVPh+zNc/FclJMlXsYLJHOBVKuPd36o0FnD18We+iPfWBBZNWm/+jgYkpambrcE7CU/UD90zkNnSCAuWsrViPM8z4H8fb82vyMvTqbPAehcp6CWEllv9f1MvyQWh74eFuakAvqJaTv96KeEsduu64EBdH3KAsQnJFEB2AEF2l8jJ8A=="
+      },
+      "hostType": "docker",
+      "matchHost": "docker.io",
+      "username": "otomi"
+    },    
   ],
   "major": {
     "enabled": false
+  },
+  "npm": {
+    "packageRules": [
+      {
+        "groupName": "all-npm",
+        "matchPackagePatterns": ["*"]
+      }
+    ]
   },
   "packageRules": [
     {
