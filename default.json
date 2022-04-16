@@ -28,7 +28,7 @@
       }
     ]
   },
-  "npmrc": "@redkubes:registry=https://npm.pkg.github.com/"
+  "npmrc": "@redkubes:registry=https://npm.pkg.github.com/",
   "packageRules": [
     {
       "automerge": true,
