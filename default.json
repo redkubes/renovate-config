@@ -15,7 +15,7 @@
       "hostType": "docker",
       "matchHost": "docker.io",
       "username": "otomi"
-    },    
+    }
   ],
   "major": {
     "enabled": false
