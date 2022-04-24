@@ -32,7 +32,7 @@
   "packageRules": [
     {
       "automerge": true,
-      "automergeType": "branch",
+      "automergeType": "pr",
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
   ]
