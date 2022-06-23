@@ -36,5 +36,5 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
   ],
-  "schedule": "before 5am every weekday"
+  "schedule": ["before 5am every weekday"]
 }
